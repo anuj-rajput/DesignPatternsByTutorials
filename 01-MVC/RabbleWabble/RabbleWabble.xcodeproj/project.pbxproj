@@ -56,15 +56,55 @@
 		28195F3A2534430C002B4F26 /* RabbleWabble */ = {
 			isa = PBXGroup;
 			children = (
-				28195F3B2534430C002B4F26 /* AppDelegate.swift */,
-				28195F3D2534430C002B4F26 /* SceneDelegate.swift */,
-				28195F3F2534430C002B4F26 /* QuestionViewController.swift */,
-				28195F412534430C002B4F26 /* Main.storyboard */,
-				28195F442534430D002B4F26 /* Assets.xcassets */,
-				28195F462534430D002B4F26 /* LaunchScreen.storyboard */,
-				28195F492534430D002B4F26 /* Info.plist */,
+				28195F502534472A002B4F26 /* AppDelegate */,
+				28195F5125344743002B4F26 /* Controllers */,
+				28195F5225344748002B4F26 /* Models */,
+				28195F532534474C002B4F26 /* Resources */,
+				28195F5425344752002B4F26 /* Views */,
 			);
 			path = RabbleWabble;
+			sourceTree = "<group>";
+		};
+		28195F502534472A002B4F26 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				28195F3B2534430C002B4F26 /* AppDelegate.swift */,
+				28195F3D2534430C002B4F26 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		28195F5125344743002B4F26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28195F3F2534430C002B4F26 /* QuestionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28195F5225344748002B4F26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		28195F532534474C002B4F26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28195F442534430D002B4F26 /* Assets.xcassets */,
+				28195F492534430D002B4F26 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28195F5425344752002B4F26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28195F462534430D002B4F26 /* LaunchScreen.storyboard */,
+				28195F412534430C002B4F26 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P96AE4Y52;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P96AE4Y52;
-				INFOPLIST_FILE = RabbleWabble/Info.plist;
+				INFOPLIST_FILE = RabbleWabble/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
