@@ -16,6 +16,7 @@
 		28195F5B253448BB002B4F26 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28195F5A253448BB002B4F26 /* QuestionGroup.swift */; };
 		28195F5E2534490F002B4F26 /* QuestionGroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28195F5D2534490F002B4F26 /* QuestionGroupData.swift */; };
 		28195F66253449BE002B4F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28195F65253449BE002B4F26 /* Assets.xcassets */; };
+		28195F6925344DD7002B4F26 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28195F6825344DD7002B4F26 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		28195F5A253448BB002B4F26 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
 		28195F5D2534490F002B4F26 /* QuestionGroupData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionGroupData.swift; sourceTree = "<group>"; };
 		28195F65253449BE002B4F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28195F6825344DD7002B4F26 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				28195F462534430D002B4F26 /* LaunchScreen.storyboard */,
 				28195F412534430C002B4F26 /* Main.storyboard */,
+				28195F6825344DD7002B4F26 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				28195F402534430C002B4F26 /* QuestionViewController.swift in Sources */,
 				28195F5825344872002B4F26 /* Question.swift in Sources */,
 				28195F3C2534430C002B4F26 /* AppDelegate.swift in Sources */,
+				28195F6925344DD7002B4F26 /* QuestionView.swift in Sources */,
 				28195F5E2534490F002B4F26 /* QuestionGroupData.swift in Sources */,
 				28195F5B253448BB002B4F26 /* QuestionGroup.swift in Sources */,
 				28195F3E2534430C002B4F26 /* SceneDelegate.swift in Sources */,
