@@ -22,6 +22,7 @@
 		28302C262535C64000201439 /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C252535C64000201439 /* QuestionStrategy.swift */; };
 		28302C292535CE8700201439 /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C282535CE8700201439 /* SequentialQuestionStrategy.swift */; };
 		28302C2C2535CFC300201439 /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C2B2535CFC300201439 /* RandomQuestionStrategy.swift */; };
+		28302C4E2536EFCD00201439 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C4D2536EFCD00201439 /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		28302C252535C64000201439 /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
 		28302C282535CE8700201439 /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
 		28302C2B2535CFC300201439 /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
+		28302C4D2536EFCD00201439 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		28195F5225344748002B4F26 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				28302C4D2536EFCD00201439 /* AppSettings.swift */,
 				28195F5725344872002B4F26 /* Question.swift */,
 				28195F5A253448BB002B4F26 /* QuestionGroup.swift */,
 				28195F5D2534490F002B4F26 /* QuestionGroupData.swift */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28302C4E2536EFCD00201439 /* AppSettings.swift in Sources */,
 				28195F402534430C002B4F26 /* QuestionViewController.swift in Sources */,
 				28195F5825344872002B4F26 /* Question.swift in Sources */,
 				28195F3C2534430C002B4F26 /* AppDelegate.swift in Sources */,
