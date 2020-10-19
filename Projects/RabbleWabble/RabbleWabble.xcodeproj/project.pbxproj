@@ -23,6 +23,7 @@
 		28302C292535CE8700201439 /* SequentialQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C282535CE8700201439 /* SequentialQuestionStrategy.swift */; };
 		28302C2C2535CFC300201439 /* RandomQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C2B2535CFC300201439 /* RandomQuestionStrategy.swift */; };
 		28302C4E2536EFCD00201439 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28302C4D2536EFCD00201439 /* AppSettings.swift */; };
+		28624D45253D939B00CE8902 /* AppSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28624D44253D939B00CE8902 /* AppSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		28302C282535CE8700201439 /* SequentialQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequentialQuestionStrategy.swift; sourceTree = "<group>"; };
 		28302C2B2535CFC300201439 /* RandomQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuestionStrategy.swift; sourceTree = "<group>"; };
 		28302C4D2536EFCD00201439 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		28624D44253D939B00CE8902 /* AppSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		28195F5125344743002B4F26 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				28624D44253D939B00CE8902 /* AppSettingsViewController.swift */,
 				28195F3F2534430C002B4F26 /* QuestionViewController.swift */,
 				28302C1E2534878B00201439 /* SelectQuestionGroupViewController.swift */,
 			);
@@ -226,6 +229,7 @@
 				28302C2C2535CFC300201439 /* RandomQuestionStrategy.swift in Sources */,
 				28302C262535C64000201439 /* QuestionStrategy.swift in Sources */,
 				28195F5B253448BB002B4F26 /* QuestionGroup.swift in Sources */,
+				28624D45253D939B00CE8902 /* AppSettingsViewController.swift in Sources */,
 				28302C1F2534878B00201439 /* SelectQuestionGroupViewController.swift in Sources */,
 				28195F3E2534430C002B4F26 /* SceneDelegate.swift in Sources */,
 			);
