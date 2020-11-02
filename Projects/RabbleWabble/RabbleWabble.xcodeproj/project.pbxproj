@@ -26,6 +26,7 @@
 		28B8B8922550030100393A31 /* DiskCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8912550030100393A31 /* DiskCaretaker.swift */; };
 		28B8B8952550269400393A31 /* QuestionGroupCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8942550269400393A31 /* QuestionGroupCaretaker.swift */; };
 		28B8B89825502A0500393A31 /* QuestionGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 28B8B89725502A0500393A31 /* QuestionGroupData.json */; };
+		28B8B89C25502C1A00393A31 /* BaseQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		28B8B8912550030100393A31 /* DiskCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCaretaker.swift; sourceTree = "<group>"; };
 		28B8B8942550269400393A31 /* QuestionGroupCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCaretaker.swift; sourceTree = "<group>"; };
 		28B8B89725502A0500393A31 /* QuestionGroupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionGroupData.json; sourceTree = "<group>"; };
+		28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuestionStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		28302C242535C5C700201439 /* Strategies */ = {
 			isa = PBXGroup;
 			children = (
+				28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */,
 				28302C252535C64000201439 /* QuestionStrategy.swift */,
 				28302C2B2535CFC300201439 /* RandomQuestionStrategy.swift */,
 				28302C282535CE8700201439 /* SequentialQuestionStrategy.swift */,
@@ -244,6 +247,7 @@
 				28302C262535C64000201439 /* QuestionStrategy.swift in Sources */,
 				28195F5B253448BB002B4F26 /* QuestionGroup.swift in Sources */,
 				28624D45253D939B00CE8902 /* AppSettingsViewController.swift in Sources */,
+				28B8B89C25502C1A00393A31 /* BaseQuestionStrategy.swift in Sources */,
 				28302C1F2534878B00201439 /* SelectQuestionGroupViewController.swift in Sources */,
 				28B8B8922550030100393A31 /* DiskCaretaker.swift in Sources */,
 				28B8B8952550269400393A31 /* QuestionGroupCaretaker.swift in Sources */,
