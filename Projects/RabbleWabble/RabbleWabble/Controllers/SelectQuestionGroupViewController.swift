@@ -26,6 +26,14 @@ public class SelectQuestionGroupViewController: UIViewController {
         set { questionGroupCaretaker.selectedQuestionGroup = newValue }
     }
     private let appSettings = AppSettings.shared
+    
+    // MARK: - View Lifecycle
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        questionGroups.forEach {
+            print("\($0.title): " + "correctCount \($0.score.correctCount)" + "incorrectCount \($0.score.incorrectCount)")
+        }
+    }
 }
 
 // MARK: - UITableViewDataSource
