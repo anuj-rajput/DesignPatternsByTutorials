@@ -50,6 +50,17 @@ extension SelectQuestionGroupViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionGroupCell") as! QuestionGroupCell
         let questionGroup = questionGroups[indexPath.row]
         cell.titleLabel.text = questionGroup.title
+        
+        /// Register `cell` as an observer of `runningPercentage`, passing `initial` and `new` into `options` to be notified of the current value, which could lead to a memory leak.
+        questionGroup.score.runningPercentage.addObserver(cell, options: [.initial, .new]) {
+            /// To ensure you don't create a retain cycle, you specify `[weak cell]`. Otherwise, you would capture cell strongly within the closure, which could lead to memory leak.
+            [weak cell] (percentage, _) in
+            /// Dispatch to the main thread, which is always a good idea when you're modifying view properties.
+            DispatchQueue.main.async {
+                /// Set `cell.percentageLabel.text` by formatting the percentage as a `String`
+                cell?.percentageLabel.text = String(format: "%.0f %%", round(100 * percentage))
+            }
+        }
         return cell
     }
 }

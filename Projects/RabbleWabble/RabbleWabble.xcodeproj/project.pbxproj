@@ -27,6 +27,7 @@
 		28B8B8952550269400393A31 /* QuestionGroupCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8942550269400393A31 /* QuestionGroupCaretaker.swift */; };
 		28B8B89825502A0500393A31 /* QuestionGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 28B8B89725502A0500393A31 /* QuestionGroupData.json */; };
 		28B8B89C25502C1A00393A31 /* BaseQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */; };
+		28B8B8A02552A0CF00393A31 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B89F2552A0CF00393A31 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		28B8B8942550269400393A31 /* QuestionGroupCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCaretaker.swift; sourceTree = "<group>"; };
 		28B8B89725502A0500393A31 /* QuestionGroupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionGroupData.json; sourceTree = "<group>"; };
 		28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuestionStrategy.swift; sourceTree = "<group>"; };
+		28B8B89F2552A0CF00393A31 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = "../../../../06-Observer/Observer.xcplaygroundpage/Sources/Observable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				28302C4D2536EFCD00201439 /* AppSettings.swift */,
+				28B8B89F2552A0CF00393A31 /* Observable.swift */,
 				28195F5725344872002B4F26 /* Question.swift */,
 				28195F5A253448BB002B4F26 /* QuestionGroup.swift */,
 			);
@@ -248,6 +251,7 @@
 				28195F5B253448BB002B4F26 /* QuestionGroup.swift in Sources */,
 				28624D45253D939B00CE8902 /* AppSettingsViewController.swift in Sources */,
 				28B8B89C25502C1A00393A31 /* BaseQuestionStrategy.swift in Sources */,
+				28B8B8A02552A0CF00393A31 /* Observable.swift in Sources */,
 				28302C1F2534878B00201439 /* SelectQuestionGroupViewController.swift in Sources */,
 				28B8B8922550030100393A31 /* DiskCaretaker.swift in Sources */,
 				28B8B8952550269400393A31 /* QuestionGroupCaretaker.swift in Sources */,
