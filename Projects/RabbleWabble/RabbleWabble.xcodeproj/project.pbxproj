@@ -33,6 +33,7 @@
 		28B8B8AA25552BB200393A31 /* CreateQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A625552BB200393A31 /* CreateQuestionCell.swift */; };
 		28B8B8AB25552BB200393A31 /* CreateQuestionGroupTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A725552BB200393A31 /* CreateQuestionGroupTitleCell.swift */; };
 		28B8B8AC25552BB200393A31 /* JapaneseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A825552BB200393A31 /* JapaneseTextField.swift */; };
+		28B8B8B125554DA800393A31 /* QuestionGroupBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8B025554DA800393A31 /* QuestionGroupBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		28B8B8A625552BB200393A31 /* CreateQuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuestionCell.swift; sourceTree = "<group>"; };
 		28B8B8A725552BB200393A31 /* CreateQuestionGroupTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuestionGroupTitleCell.swift; sourceTree = "<group>"; };
 		28B8B8A825552BB200393A31 /* JapaneseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseTextField.swift; sourceTree = "<group>"; };
+		28B8B8B025554DA800393A31 /* QuestionGroupBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				28195F502534472A002B4F26 /* AppDelegate */,
+				28B8B8AF25554D8B00393A31 /* Builders */,
 				28B8B890255002DF00393A31 /* CareTakers */,
 				28195F5125344743002B4F26 /* Controllers */,
 				28195F5225344748002B4F26 /* Models */,
@@ -183,6 +186,14 @@
 			path = CareTakers;
 			sourceTree = "<group>";
 		};
+		28B8B8AF25554D8B00393A31 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				28B8B8B025554DA800393A31 /* QuestionGroupBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +275,7 @@
 				28302C22253490EB00201439 /* QuestionGroupCell.swift in Sources */,
 				28B8B8AC25552BB200393A31 /* JapaneseTextField.swift in Sources */,
 				28302C292535CE8700201439 /* SequentialQuestionStrategy.swift in Sources */,
+				28B8B8B125554DA800393A31 /* QuestionGroupBuilder.swift in Sources */,
 				28302C2C2535CFC300201439 /* RandomQuestionStrategy.swift in Sources */,
 				28B8B8A325552B8200393A31 /* CreateQuestionGroupViewController.swift in Sources */,
 				28302C262535C64000201439 /* QuestionStrategy.swift in Sources */,
