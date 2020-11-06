@@ -28,6 +28,11 @@
 		28B8B89825502A0500393A31 /* QuestionGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 28B8B89725502A0500393A31 /* QuestionGroupData.json */; };
 		28B8B89C25502C1A00393A31 /* BaseQuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */; };
 		28B8B8A02552A0CF00393A31 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B89F2552A0CF00393A31 /* Observable.swift */; };
+		28B8B8A325552B8200393A31 /* CreateQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A225552B8200393A31 /* CreateQuestionGroupViewController.swift */; };
+		28B8B8A925552BB200393A31 /* NewQuestionGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B8B8A525552BB200393A31 /* NewQuestionGroup.storyboard */; };
+		28B8B8AA25552BB200393A31 /* CreateQuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A625552BB200393A31 /* CreateQuestionCell.swift */; };
+		28B8B8AB25552BB200393A31 /* CreateQuestionGroupTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A725552BB200393A31 /* CreateQuestionGroupTitleCell.swift */; };
+		28B8B8AC25552BB200393A31 /* JapaneseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B8B8A825552BB200393A31 /* JapaneseTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +59,11 @@
 		28B8B89725502A0500393A31 /* QuestionGroupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuestionGroupData.json; sourceTree = "<group>"; };
 		28B8B89B25502C1A00393A31 /* BaseQuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseQuestionStrategy.swift; sourceTree = "<group>"; };
 		28B8B89F2552A0CF00393A31 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = "../../../../06-Observer/Observer.xcplaygroundpage/Sources/Observable.swift"; sourceTree = "<group>"; };
+		28B8B8A225552B8200393A31 /* CreateQuestionGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuestionGroupViewController.swift; sourceTree = "<group>"; };
+		28B8B8A525552BB200393A31 /* NewQuestionGroup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewQuestionGroup.storyboard; sourceTree = "<group>"; };
+		28B8B8A625552BB200393A31 /* CreateQuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuestionCell.swift; sourceTree = "<group>"; };
+		28B8B8A725552BB200393A31 /* CreateQuestionGroupTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuestionGroupTitleCell.swift; sourceTree = "<group>"; };
+		28B8B8A825552BB200393A31 /* JapaneseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JapaneseTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				28624D44253D939B00CE8902 /* AppSettingsViewController.swift */,
+				28B8B8A225552B8200393A31 /* CreateQuestionGroupViewController.swift */,
 				28195F3F2534430C002B4F26 /* QuestionViewController.swift */,
 				28302C1E2534878B00201439 /* SelectQuestionGroupViewController.swift */,
 			);
@@ -140,10 +151,14 @@
 		28195F5425344752002B4F26 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				28B8B8A625552BB200393A31 /* CreateQuestionCell.swift */,
+				28B8B8A725552BB200393A31 /* CreateQuestionGroupTitleCell.swift */,
+				28B8B8A825552BB200393A31 /* JapaneseTextField.swift */,
 				28195F462534430D002B4F26 /* LaunchScreen.storyboard */,
 				28195F412534430C002B4F26 /* Main.storyboard */,
-				28195F6825344DD7002B4F26 /* QuestionView.swift */,
+				28B8B8A525552BB200393A31 /* NewQuestionGroup.storyboard */,
 				28302C21253490EB00201439 /* QuestionGroupCell.swift */,
+				28195F6825344DD7002B4F26 /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B8B8A925552BB200393A31 /* NewQuestionGroup.storyboard in Resources */,
 				28195F482534430D002B4F26 /* LaunchScreen.storyboard in Resources */,
 				28B8B89825502A0500393A31 /* QuestionGroupData.json in Resources */,
 				28195F66253449BE002B4F26 /* Assets.xcassets in Resources */,
@@ -243,16 +259,20 @@
 				28195F402534430C002B4F26 /* QuestionViewController.swift in Sources */,
 				28195F5825344872002B4F26 /* Question.swift in Sources */,
 				28195F3C2534430C002B4F26 /* AppDelegate.swift in Sources */,
+				28B8B8AA25552BB200393A31 /* CreateQuestionCell.swift in Sources */,
 				28195F6925344DD7002B4F26 /* QuestionView.swift in Sources */,
 				28302C22253490EB00201439 /* QuestionGroupCell.swift in Sources */,
+				28B8B8AC25552BB200393A31 /* JapaneseTextField.swift in Sources */,
 				28302C292535CE8700201439 /* SequentialQuestionStrategy.swift in Sources */,
 				28302C2C2535CFC300201439 /* RandomQuestionStrategy.swift in Sources */,
+				28B8B8A325552B8200393A31 /* CreateQuestionGroupViewController.swift in Sources */,
 				28302C262535C64000201439 /* QuestionStrategy.swift in Sources */,
 				28195F5B253448BB002B4F26 /* QuestionGroup.swift in Sources */,
 				28624D45253D939B00CE8902 /* AppSettingsViewController.swift in Sources */,
 				28B8B89C25502C1A00393A31 /* BaseQuestionStrategy.swift in Sources */,
 				28B8B8A02552A0CF00393A31 /* Observable.swift in Sources */,
 				28302C1F2534878B00201439 /* SelectQuestionGroupViewController.swift in Sources */,
+				28B8B8AB25552BB200393A31 /* CreateQuestionGroupTitleCell.swift in Sources */,
 				28B8B8922550030100393A31 /* DiskCaretaker.swift in Sources */,
 				28B8B8952550269400393A31 /* QuestionGroupCaretaker.swift in Sources */,
 				28195F3E2534430C002B4F26 /* SceneDelegate.swift in Sources */,
