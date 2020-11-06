@@ -122,6 +122,14 @@
             </objects>
             <point key="canvasLocation" x="222" y="818"/>
         </scene>
+        <!--NewQuestionGroup-->
+        <scene sceneID="oa9-ME-l5F">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NewQuestionGroup" id="qlw-6g-RtC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abL-b0-oC7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="-317"/>
+        </scene>
         <!--Select Question Group-->
         <scene sceneID="HZq-NI-ggv">
             <objects>
@@ -135,20 +143,20 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuestionGroupCell" id="bhT-9f-KJn" customClass="QuestionGroupCell" customModule="RabbleWabble" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bhT-9f-KJn" id="9j6-UA-gac">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" text="0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBM-p3-yJy">
-                                                    <rect key="frame" x="368" y="11" width="26" height="21"/>
+                                                    <rect key="frame" x="368" y="11" width="26" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VhC-Ba-Qhh">
-                                                    <rect key="frame" x="20" y="11" width="340" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="340" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -190,6 +198,11 @@
                         <barButtonItem key="leftBarButtonItem" image="ic_settings" id="hLX-F5-7jJ">
                             <connections>
                                 <segue destination="lhC-5b-oTp" kind="show" id="0gM-MT-BJj"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="K8s-mY-8rf">
+                            <connections>
+                                <segue destination="qlw-6g-RtC" kind="presentation" id="3Gm-8E-cur"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
