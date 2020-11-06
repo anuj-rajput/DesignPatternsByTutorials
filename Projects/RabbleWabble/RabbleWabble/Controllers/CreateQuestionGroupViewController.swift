@@ -53,7 +53,20 @@ public class CreateQuestionGroupViewController: UITableViewController {
     }
     
     @IBAction func savePressed(_ sender: Any) {
-        // TODO: - Notify save pressed
+        do {
+            let questionGroup = try questionGroupBuilder.build()
+            delegate?.createQuestionGroupViewController(self, created: questionGroup)
+        } catch {
+            displayMissingInputsAlert()
+        }
+    }
+    
+    public func displayMissingInputsAlert() {
+        let alert = UIAlertController(title: "Missing inputs", message: "Please provide all non-optional values.", preferredStyle: .alert)
+        
+        let ok = UIAlertAction(title: "Okay", style: .default, handler: nil)
+        alert.addAction(ok)
+        present(alert, animated: true, completion: nil)
     }
 }
 
