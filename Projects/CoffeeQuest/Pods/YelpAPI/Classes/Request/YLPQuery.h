@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "YLPSortType.h"
+#import <YLPSortType.h>
 
 @class YLPCoordinate;
 
