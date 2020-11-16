@@ -32,7 +32,7 @@ import YelpAPI
 public class ViewController: UIViewController {
     
     // MARK: - Properties
-    private var businesses: [YLPBusiness] = []
+    private var businesses: [Business] = []
     private let client = YLPClient(apiKey: YelpAPIKey)
     private let locationManager = CLLocationManager()
     public let annotationFactory = AnnotationFactory()
@@ -82,7 +82,7 @@ extension ViewController: MKMapViewDelegate {
         
         client.search(with: yelpCoordinate, term: "coffee", limit: 35, offset: 0, sort: .bestMatched) { [weak self] (searchResult, error) in
             guard let self = self else { return }
-            guard let searchResult = searchResult,
+            guard let searchResult = searchResult?.adaptSearchResultsFromYLP(),
                   error == nil else {
                 print("Search failed: \(String(describing: error))")
                 return
